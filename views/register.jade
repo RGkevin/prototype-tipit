@@ -1,0 +1,25 @@
+extends layout
+
+block content
+	.wrap.wrap-login
+		.container
+			.content
+				.form-layer.form-layer-login
+					.brand
+						img(src="img/logo.png", alt="Tipit logo")
+					h1.title Welcome traveler
+
+					form(action="/").form-box
+						p
+							label(for="")
+								span Email
+								input(type="text").form-input
+						p
+							label(for="")
+								span Password
+								input.form-input(type="password")
+						p.text-center
+							button.form-button(type="submit") Register Now
+
+				.background
+					img(src="img/bg-login.jpg", alt="Tipit")

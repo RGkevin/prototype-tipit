@@ -1,0 +1,24 @@
+extends layout
+
+block content
+	.wrap.wrap-search
+		.container
+			.content
+				.form-layer.form-layer-search
+					.brand
+						img(src="img/logo.png", alt="Tipit logo")
+					h1.title What are you looking for ?
+
+					form(action="/timeline.html").form-box
+						p
+							label(for="")
+								input.form-input(type="text", placehold="", name="s")
+						p.text-center
+							button.form-button.form-button-mint(type="submit") Find
+
+				include _controls.jade
+
+				.background
+					img(src="img/bg-login.jpg", alt="Tipit")
+
+

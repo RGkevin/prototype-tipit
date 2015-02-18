@@ -1,0 +1,62 @@
+
+.wrap.wrap-login
+	background-color transparent
+
+	.content
+		position relative
+
+		.background
+			position absolute
+			left 0
+			right 0
+			top 0
+			bottom 0
+			overflow hidden
+			text-align center
+			background-color black
+
+			img
+				// max-width 100%
+				height 100%
+				opacity(.5)
+
+.form-layer
+	position relative
+	z-index 2
+
+	&.form-layer-login
+		max-width main-width
+
+		.title
+			font-size 1.2em
+			text-align center
+			color white
+
+		.form-box
+			margin-top 20px
+			padding 30px
+
+			p
+				display block
+
+				label
+					display block
+
+					span
+						color white
+						display inline-block
+						margin-bottom 10px
+
+					.form-input
+						display block
+						width 90%
+
+.brand
+	width 40%
+	margin 0 auto
+	padding-top 60px
+	padding-bottom 10px
+	//background-color rgba(255, 255, 255, .5)
+
+	img
+		max-width 100%
